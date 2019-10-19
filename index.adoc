@@ -1,7 +1,10 @@
 
 # Index
 
-This document serves as an index / table of contents to chronologically list
-daily notes for quick lookup, with additional metadata where neeeded.
+This document serves as a launchpad to more easily find my daily notes. I may try group them or list things chronologically where is makes sense to do so.
 
-- link:notes/seven-languages-in-seven-weeks/01-introduction.adoc[Seven Languages in Seven Weeks: Notes from Chapter 1. Introduction] (2019-10-19)
+## Books
+
+### link:notes/seven-languages-in-seven-weeks[Seven Languages in Seven Weeks]
+
+link:notes/seven-languages-in-seven-weeks/01-introduction.adoc[Notes from Chapter 1. Introduction] (2019-10-19)

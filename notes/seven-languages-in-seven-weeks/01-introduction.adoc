@@ -77,7 +77,7 @@ The only OOP language included in the book. Included to demonstrate the differen
 "Those languages that I picked are not necessarily the best, but each one is unique, with something important to teach you."
 ----
 
-#### Some final summarised points
+### Some final summarised points
 
 - **Learning to Learn** (Learning these different languages will have an impact on how you code in whichever language you currently use in your day job)
 - **Help for Dangerous Times** (Our industry goes through paradigm shifts every so often and learning these languages might help with gaining relevant skills to stay up-to-date with current/future shifts)
@@ -86,7 +86,7 @@ The only OOP language included in the book. Included to demonstrate the differen
 - **"I Won't Be Your Programming Reference"**
 - **"I Am Going to Push You Hard"** (Will include quick interactive tour, some small programming challenges and one programming project every week. Don't just read the book - try the exercises out)
 
-#### A Final Charge
+### A Final Charge
 
 ----
 "Have fun."
