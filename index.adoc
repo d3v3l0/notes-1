@@ -1,0 +1,7 @@
+
+# Index
+
+This document serves as an index / table of contents to chronologically list
+daily notes for quick lookup, with additional metadata where neeeded.
+
+- link:notes/seven-languages-in-seven-weeks/01-introduction.adoc[Seven Languages in Seven Weeks: Notes from Chapter 1. Introduction] (2019-10-19)
