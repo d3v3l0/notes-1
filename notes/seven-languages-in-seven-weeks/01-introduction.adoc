@@ -1,0 +1,93 @@
+# Seven Languages in Seven Weeks
+
+## Contextual Notes
+
+I've decided to try work through the book https://pragprog.com/book/btlang/seven-languages-in-seven-weeks[Seven Languages in Seven Weeks] (by Bruce A. Tate). I may not make it through all seven programming languages in a first pass. My current hope is that I get through three or four of them and come back to the others after doing some other work as a breather. The notes below cover some initial points from the introductory chapter that I want to keep in mind while working on the later chapters.
+
+## Chapter 1. Introduction
+
+### 1.1 Method to the Madness
+
+Bruce touches on some initial questions that should be answered for each programming language in the book:
+
+- **What is the typing model?** All of the languages covered will be strong types, but there will be a mix of static vs dynamic languages with the goal of showing their strengths and any trade offs and how those trade offs impact a developer.
+- **What is the programming model?** E.g. OO, FP, procedural, logic based, prototype, etc.
+_"Learning new programming paradigms is one of the most important concepts in this book."_
+- **How will you interact with it?**
+- **What are the decision constructs and core data structures?**
+- **What are the core features that make the language unique?**
+
+----
+"When you're through, you will not be an expert in any of these languages, but you _will_ what each uniquely has to offer."
+----
+
+### 1.2 The Languages
+
+Here is a list of the languages and why they were picked:
+
+#### Ruby
+
+_An OO language with ease of use and readability._
+
+The only OOP language included in the book. Included to demonstrate the difference in paradigm compared to the other language choices. Covers the core decisions that shaped the design or Ruby. Touches on Ruby metaprogramming to show how to extend the syntax of the language.
+
+#### Io
+
+- Lacked commercial success
+- The concurrency constructs with the simplicity and uniformity of syntax are important concepts
+- Small footprint
+- Prototype language like JavaScript
+- Unique message dispatch mechanism
+
+#### Prolog
+
+- Old, but extremely powerful
+- Solve complex problems with ease
+- Strongly influenced Erlang
+
+#### Scala
+
+- Brings strong functional concepts to the Java ecosystem
+- Also embraces OOP
+
+----
+"You'll see why Scala represents pure heresy to pure functional programmers and pure bliss to Java developers."
+----
+
+#### Erlang
+
+- FP language that gets concurrency, distribution, and fault tolerance right
+- CouchDB (a cloud-based database) is created using Erlang for these reasons
+
+#### Clojure
+
+- Lisp-dialect JVM language
+- Uses the same strategy in versioned databases to manage concurrency
+- Supports perhaps the most flexible programming model in the book
+- Huge ecosystem to lean on, incl. Java libraries and widely available deployment platforms
+
+#### Haskell
+
+- The only pure functional language in this book
+- No mutable state anywhere
+- Strongly typed, supports the most widely respected typing model
+- Like Prolog, takes a while to understand, but the results will be worth it
+
+----
+"Those languages that I picked are not necessarily the best, but each one is unique, with something important to teach you."
+----
+
+#### Some final summarised points
+
+- **Learning to Learn** (Learning these different languages will have an impact on how you code in whichever language you currently use in your day job)
+- **Help for Dangerous Times** (Our industry goes through paradigm shifts every so often and learning these languages might help with gaining relevant skills to stay up-to-date with current/future shifts)
+- **"I Will Take You Beyond Syntax"** (Bruce will focus on deeper, language-specific concepts. Not superficial, but also not at the level of books dedicated to the specific language)
+- **"I Won't Be Your Installation Guide"**
+- **"I Won't Be Your Programming Reference"**
+- **"I Am Going to Push You Hard"** (Will include quick interactive tour, some small programming challenges and one programming project every week. Don't just read the book - try the exercises out)
+
+#### A Final Charge
+
+----
+"Have fun."
+----
