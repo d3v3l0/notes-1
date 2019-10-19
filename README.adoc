@@ -1,1 +1,9 @@
 # Notes
+
+## Rationale
+
+My goal for this repository is to document my learning journey as I tackle new
+ideas, concepts, technologies and programming languages. My hope in keeping
+this journal is that I will have to properly comprehend what I'm learning in a
+way that I can clearly and concisely share it with other people, irrespective
+of their knowledge background.
