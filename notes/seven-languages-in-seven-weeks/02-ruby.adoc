@@ -1,0 +1,15 @@
+# Seven Languages in Seven Weeks
+
+## Chapter 2. Ruby
+
+Bruce likens programming languages to different characters.
+
+"Like any person, each language took on a distinct personality. Java was like having a rich lawyer as a brother. He was fun when he was younger, but now he's a black hole that sucks away all the joy in a 100-mile radius."
+
+Meet Ruby: "She's sometimes quirky, always beautiful, a little mysterious, and absolutely magical. Think Mary Poppins, the British nanny."
+
+"Matz, Ruby's creator, doesn't worry about the efficiency of the language. He optimizes the efficiency of the _programmers_."
+
+### 2.1 Quick History
+
+
