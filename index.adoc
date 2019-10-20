@@ -7,4 +7,5 @@ This document serves as a launchpad to more easily find my daily notes. I may tr
 
 ### link:notes/seven-languages-in-seven-weeks[Seven Languages in Seven Weeks]
 
-link:notes/seven-languages-in-seven-weeks/01-introduction.adoc[Notes from Chapter 1. Introduction] (2019-10-19)
+link:notes/seven-languages-in-seven-weeks/01-introduction.adoc[Notes from Chapter 1. Introduction] +
+link:notes/seven-languages-in-seven-weeks/02-ruby.adoc[Notes from Chapter 2. Ruby]
