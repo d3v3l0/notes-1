@@ -14,16 +14,16 @@ Meet Ruby: "She's sometimes quirky, always beautiful, a little mysterious, and a
 
 Ruby was created in 1993 by Yukihiro Matsumoto (Matz). Ruby is:
 
-- interpreted
-  - Ruby code is executed by an interpreter rather than a compiler
-- dynamically typed
-  - types are bound at execution time rather than compile time
-  - trade off = flexibility vs execution safety
-- object-oriented
-  - supports encapsulation (data and behaviour are packaged together)
-  - inheritance through classes (object types are  organised in class trees)
-  - polymorphism (objects can take many forms)
-- from a family of so-called scripting languages
+* interpreted
+** Ruby code is executed by an interpreter rather than a compiler
+* dynamically typed
+** types are bound at execution time rather than compile time
+** trade off = flexibility vs execution safety
+* object-oriented
+** supports encapsulation (data and behaviour are packaged together)
+** inheritance through classes (object types are  organised in class trees)
+** polymorphism (objects can take many forms)
+* from a family of so-called scripting languages
 
 Ruby became popular around 2006 with the emergence of the Rails framework.
 
