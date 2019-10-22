@@ -27,4 +27,4 @@ Ruby was created in 1993 by Yukihiro Matsumoto (Matz). Ruby is:
 
 Ruby became popular around 2006 with the emergence of the Rails framework.
 
-Ruby's strength is programmers productivy as opposed to execution speed.
+Ruby's strength is programmers productivity as opposed to execution speed.
