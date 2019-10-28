@@ -225,3 +225,64 @@ NameError (undefined local variable or method `this_will_cause_an_error' for mai
 NOTE: Use `&` or `|` to compare while executing the whole expression.
 
 #### Duck Typing
+
+Ruby is _not_ actually strongly type, but "behaves like a strongly typed language most of the time."
+
+```
+> 4 + 'four'
+Traceback (most recent call last):
+        5: from /usr/bin/irb:23:in `<main>'
+        4: from /usr/bin/irb:23:in `load'
+        3: from /usr/lib/ruby/gems/2.6.0/gems/irb-1.0.0/exe/irb:11:in `<top (required)>'
+        2: from (irb):1
+        1: from (irb):1:in `+'
+TypeError (String can't be coerced into Integer)
+>> 4.class
+=> Integer
+>> (4.0).class
+=> Float
+>> 4 + 4.0
+=> 8.0
+```
+
+The above example shows how you'll get an error when types collide.
+
+NOTE: Ruby does type checking at run time (not compile time). +
+"This concept is called _dynamic typing_.
+
+The following example illustrates this point. The type error only occurs when the function is executed (i.e. at run time).
+
+
+```
+>> def add_them_up
+>>   4 + 'four'
+>> end
+=> :add_them_up
+>> add_them_up
+Traceback (most recent call last):
+        6: from /usr/bin/irb:23:in `<main>'
+        5: from /usr/bin/irb:23:in `load'
+        4: from /usr/lib/ruby/gems/2.6.0/gems/irb-1.0.0/exe/irb:11:in `<top (required)>'
+        3: from (irb):8
+        2: from (irb):6:in `add_them_up'
+        1: from (irb):6:in `+'
+TypeError (String can't be coerced into Integer)
+```
+
+Ruby's type system means that "classes don't have to inherit from the same parent to the used in the same way" (a.k.a duck typing).
+
+```
+>> i = 0
+=> 0
+>> a = ['100', 100.0]
+=> ["100", 100.0]
+>> while i < 2
+>>   puts a[i].to_i
+>>   i = i + 1
+>> end
+100
+100
+=> nil
+```
+
+NOTE: "Duck typing doesn't care what the underlying type might be. If it walks like a duck and quacks like a duck, it's a duck. In this case, the `quack` method is `to_i`."
