@@ -286,3 +286,65 @@ Ruby's type system means that "classes don't have to inherit from the same paren
 ```
 
 NOTE: "Duck typing doesn't care what the underlying type might be. If it walks like a duck and quacks like a duck, it's a duck. In this case, the `quack` method is `to_i`."
+
+#### Day 1 Self Study
+
+https://ruby-doc.org/core-2.6.5/[Ruby API docs]
+
+https://ruby-doc.com/docs/ProgrammingRuby/[Programming Ruby: The Pragmatic Programmer's Guide]
+
+**Do:**
+
+Print the string "Hello, world."
+
+```
+>> puts 'Hello, world.'
+Hello, world.
+=> nil
+```
+
+For the string "Hello, Ruby," find the index of the word "Ruby".
+
+```
+>> a = 'Hello, Ruby,'
+=> "Hello, Ruby,"
+>> a.index("Ruby")
+=> 7
+
+>> 'Hello, Ruby,'.index("Ruby")
+=> 7
+```
+
+Print your name ten times.
+
+```
+>> (1..10).each{|n| puts "yogidevbear"}
+yogidevbear
+yogidevbear
+yogidevbear
+yogidevbear
+yogidevbear
+yogidevbear
+yogidevbear
+yogidevbear
+yogidevbear
+yogidevbear
+=> 1..10
+```
+
+Print the string "This is sentence number 1." where the number 1 changes from 1 to 10.
+
+```
+>> (1..10).each{|n| puts "This is sentence number #{n}."}
+This is sentence number 1.
+This is sentence number 2.
+This is sentence number 3.
+This is sentence number 4.
+This is sentence number 5.
+This is sentence number 6.
+This is sentence number 7.
+This is sentence number 8.
+This is sentence number 9.
+This is sentence number 10.
+=> 1..10
+```
