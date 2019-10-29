@@ -348,3 +348,39 @@ This is sentence number 9.
 This is sentence number 10.
 => 1..10
 ```
+
+Run a Ruby program from a file.
+
+The following code should work when starting `irb` from the same folder as this adoc file.
+
+```
+>> load './ruby-files/day-1-self-study.rb'
+Hello, world. I'm being run from a file!
+=> true
+```
+
+Bonus problem:
+
+Write a program that picks a random number.
+Let a player guess the number, telling them if their guess was too low or too high.
+
+```
+guess = -1                                                      
+answer = rand(10)                                               
+while guess != answer                                           
+  puts "Guess the number between 0 and 9:"                      
+  guess = gets.to_i                                             
+  if guess < answer                                             
+    puts "Too low. Try again."                                  
+  else                                                          
+    puts "Too high. Try again."                                 
+  end                                                           
+end                                                             
+puts "Correct!"
+```
+
+The above code is also stored in `./ruby-files/number-game.rb`. To run the file from irb:
+
+```
+load './ruby-files/number-game.rb'
+```
